@@ -1,0 +1,27 @@
+{
+  "name": "vidoplay",
+  "version": "0.0.1",
+  "description": "player that plays things",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "webpack": "webpack --progress --colors",
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --devtool 'source-map' --progress --colors --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vidooloo@bitbucket.org/thevidoolooteam/player.git"
+  },
+  "author": "Vidooloo-team",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/thevidoolooteam/player#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
